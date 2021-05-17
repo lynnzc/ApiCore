@@ -97,6 +97,8 @@ extension UsersControllerTests {
     // to regenerate.
     static let __allTests__UsersControllerTests = [
         ("testGetUsers", testGetUsers),
+        ("testIdentify", testIdentify),
+        ("testInviteExistingUser", testInviteExistingUser),
         ("testInviteUser", testInviteUser),
         ("testLinuxTests", testLinuxTests),
         ("testRegisterUser", testRegisterUser),

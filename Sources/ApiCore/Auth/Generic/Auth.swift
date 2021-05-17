@@ -80,7 +80,11 @@ public final class Auth: Controller {
             return try AuthManager.authData(request: req, user: apiCoreUser).map(to: ResponseEncodable.self) { authData in
                 var user = user
                 user.token = authData.0.token
-                guard let url = try? redirectUrl.append(userInfo: user, on: req), let unwrappedUrl = url else {
+                guard let url: URL? = try? redirectUrl.append(userInfo: user, on: req) else {
+                    throw Error<T>.unableToGenerateRedirectLink
+                }
+                
+                guard let unwrappedUrl = url else {
                     throw Error<T>.unableToGenerateRedirectLink
                 }
                 

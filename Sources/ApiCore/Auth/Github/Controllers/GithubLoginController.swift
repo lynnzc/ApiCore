@@ -137,7 +137,7 @@ class GithubLoginController: Controller {
                         return try UsersManager.userFromExternalAuthenticationService(info, on: req).flatMap(to: Response.self) { apiCoreUser in
                             return try AuthManager.authData(request: req, user: apiCoreUser).map(to: Response.self) { authData in
                                 info.token = authData.0.token
-                                guard let url = try? redirectUrl.append(userInfo: info, on: req), let unwrappedUrl = url else {
+                                guard let url: URL? = try? redirectUrl.append(userInfo: info, on: req), let unwrappedUrl = url else {
                                     throw Error.unableToGenerateRedirectLink
                                 }
                                 

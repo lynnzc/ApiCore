@@ -14,13 +14,13 @@ extension ApiCoreBase {
     
     static func setupDatabase(_ services: inout Services) throws {
         // Migrate models / tables
-        add(model: Team.self, database: .db)
-        add(model: User.self, database: .db)
-        add(model: TeamUser.self, database: .db)
-        add(model: Token.self, database: .db)
-        add(model: ErrorLog.self, database: .db)
-        add(model: System.self, database: .db)
-        add(model: Setting.self, database: .db)
+        add(model: Team.self, database: DatabaseIdentifier<Team.Database>.db)
+        add(model: User.self, database: DatabaseIdentifier<User.Database>.db)
+        add(model: TeamUser.self, database: DatabaseIdentifier<TeamUser.Database>.db)
+        add(model: Token.self, database: DatabaseIdentifier<Token.Database>.db)
+        add(model: ErrorLog.self, database: DatabaseIdentifier<ErrorLog.Database>.db)
+        add(model: System.self, database: DatabaseIdentifier<System.Database>.db)
+        add(model: Setting.self, database: DatabaseIdentifier<Setting.Database>.db)
         
         // Data migrations
         migrationConfig.add(migration: BaseMigration.self, database: .db)
