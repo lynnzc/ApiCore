@@ -6,8 +6,8 @@
         "repositoryURL": "https://github.com/IBM-Swift/BlueCryptor.git",
         "state": {
           "branch": null,
-          "revision": "6f79b4ea0a7ef8acb08ba3f3e23da32e83acaca3",
-          "version": "1.0.28"
+          "revision": "ee5880e031da4c609f372cf7472476ab51d5dd19",
+          "version": "1.0.200"
         }
       },
       {
@@ -15,8 +15,8 @@
         "repositoryURL": "https://github.com/IBM-Swift/BlueSocket.git",
         "state": {
           "branch": null,
-          "revision": "ccc671b022bc60e5fffcb2aa15f499c6331bfd18",
-          "version": "1.0.46"
+          "revision": "c9894fd117457f1d006575fbfb2fdfd6f79eac03",
+          "version": "1.0.200"
         }
       },
       {
@@ -24,8 +24,8 @@
         "repositoryURL": "https://github.com/IBM-Swift/BlueSSLService.git",
         "state": {
           "branch": null,
-          "revision": "0127cd4156bb0ba702894f2509199e4b65ca1db5",
-          "version": "1.0.46"
+          "revision": "ae5889d2a8b068d2d3ab91ec73aa8f557c03cd8a",
+          "version": "1.0.200"
         }
       },
       {
@@ -156,11 +156,11 @@
       },
       {
         "package": "MailCore",
-        "repositoryURL": "https://github.com/LiveUI/MailCore.git",
+        "repositoryURL": "https://github.com/lynnzc/MailCore.git",
         "state": {
-          "branch": null,
-          "revision": "b921d882715cdebdc8f03e79e3f0dd78a65ba4c4",
-          "version": "0.2.3"
+          "branch": "master",
+          "revision": "9a2aec13f4b1e7b997919ff6021dce1b4b50d16d",
+          "version": null
         }
       },
       {
@@ -267,8 +267,8 @@
         "repositoryURL": "https://github.com/IBM-Swift/Swift-SMTP.git",
         "state": {
           "branch": null,
-          "revision": "23360cff5fcb92fb37041f5dd1ef16d7b8fe5ff0",
-          "version": "5.1.1"
+          "revision": "75ba1b9c0f524f9f3a87f19d87c1a3f2dfb8710f",
+          "version": "5.1.2"
         }
       },
       {
@@ -312,8 +312,8 @@
         "repositoryURL": "https://github.com/vapor/vapor.git",
         "state": {
           "branch": null,
-          "revision": "c86ada59b31c69f08a6abd4f776537cba48d5df6",
-          "version": "3.3.0"
+          "revision": "92a58a9a84e4330500b99fe355a94d29f67abe58",
+          "version": "3.3.1"
         }
       },
       {
@@ -321,8 +321,8 @@
         "repositoryURL": "https://github.com/twof/VaporMailgunService.git",
         "state": {
           "branch": null,
-          "revision": "4270d8e1eb84ceffa82cbf3d787c1d739ca4dd9c",
-          "version": "1.6.0"
+          "revision": "9c41e744bced6f2f854bd3632333d57d6db46d51",
+          "version": "1.8.1"
         }
       },
       {

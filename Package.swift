@@ -11,7 +11,7 @@ let package = Package(
         .library(name: "ApiCoreTestTools", targets: ["ApiCoreTestTools"])
     ],
     dependencies: [
-        .package(name: "Vapor", url: "https://github.com/vapor/vapor.git", from: "3.0.0"),
+        .package(name: "Vapor", url: "https://github.com/vapor/vapor.git", from: "3.3.1"),
         .package(name: "Core", url: "https://github.com/vapor/core.git", from: "3.4.1"),
         .package(name: "Crypto", url: "https://github.com/vapor/crypto.git", from: "3.2.0"),
         .package(name: "Fluent", url: "https://github.com/vapor/fluent.git", from: "3.0.0"),
@@ -20,11 +20,12 @@ let package = Package(
         .package(name: "Leaf", url: "https://github.com/vapor/leaf.git", from: "3.0.0"),
         .package(url: "https://github.com/twostraws/SwiftGD.git", .upToNextMinor(from: "2.3.0")),
         .package(url: "https://github.com/lynnzc/S3.git", from: "3.0.0"),
-        .package(url: "https://github.com/LiveUI/MailCore.git", from: "0.2.3"),
+        .package(url: "https://github.com/lynnzc/MailCore.git", .branch("master")),
         .package(url: "https://github.com/LiveUI/ErrorsCore.git", from: "0.1.0"),
         .package(url: "https://github.com/LiveUI/VaporTestTools.git", from: "0.1.5"),
         .package(url: "https://github.com/LiveUI/FluentTestTools.git", from: "0.1.0"),
-        .package(url: "https://github.com/vapor-community/Imperial.git", from: "0.12.0")
+        .package(url: "https://github.com/vapor-community/Imperial.git", from: "0.12.0"),
+        .package(url: "https://github.com/IBM-Swift/LoggerAPI.git", .upToNextMinor(from: "1.8.0"))
     ],
     targets: [
         .target(
