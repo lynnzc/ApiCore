@@ -19,7 +19,7 @@ let package = Package(
         .package(name: "JWT", url: "https://github.com/vapor/jwt.git", from: "3.0.0"),
         .package(name: "Leaf", url: "https://github.com/vapor/leaf.git", from: "3.0.0"),
         .package(url: "https://github.com/twostraws/SwiftGD.git", .upToNextMinor(from: "2.3.0")),
-        .package(url: "https://github.com/lynnzc/S3.git", from: "3.0.0"),
+        .package(url: "https://github.com/lynnzc/S3.git", from: "3.0.1"),
         .package(url: "https://github.com/lynnzc/MailCore.git", .branch("master")),
         .package(url: "https://github.com/LiveUI/ErrorsCore.git", from: "0.1.0"),
         .package(url: "https://github.com/LiveUI/VaporTestTools.git", from: "0.1.5"),
